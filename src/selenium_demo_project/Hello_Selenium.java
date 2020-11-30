@@ -24,7 +24,7 @@ public class Hello_Selenium {
    WebElement abc=driver.findElement(By.name("country"));
 	Select s1=new Select(abc);
 	s1.selectByVisibleText("INDIA");
-	Thread.sleep(5000);
+	//Thread.sleep(5000);
 	s1.selectByValue("HUNGARY");
 	
 	//driver.findElement(By.xpath("/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[17]/td/input")).click();
